@@ -23,6 +23,7 @@ from drf_yasg import openapi
 
 
 
+
 schema_view = get_schema_view(
    openapi.Info(
       title="Snippets API",
@@ -48,3 +49,4 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
    path('products/', include('products.urls')),
 ] + urlpatterns1
+
