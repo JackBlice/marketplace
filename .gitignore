@@ -3,3 +3,5 @@ venv
 media
 .idea
 000
+
+migrations/
